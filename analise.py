@@ -215,8 +215,8 @@ for pos in positions:
     lre[pos+'_mean'] = hre[pos].mean()
     lre[pos+'_flut'] = lre[pos] - lre[pos].mean()
     
-hre.to_csv('hre.txt')
-lre.to_csv('lre.txt')
+hre.to_csv('hre_tratado.txt')
+lre.to_csv('lre_tratado.txt')
 
 #Q2
 
@@ -368,7 +368,7 @@ for pos in positions_prob:
     hre_prob[pos+ '_S'] = (hre_prob[pos+ '_flut']**3).mean()/(((hre_prob[pos+'_flut'])**2).mean())**1.5
     hre_prob[pos+'_T'] = (hre_prob[pos+'_flut']**4).mean()/ ((hre_prob[pos+'_flut']**2).mean())**2
     
-hre_prob.to_csv('hre_prob.txt')    
+hre_prob.to_csv('hre_prob_tratado.txt')    
 
     
     
