@@ -1,6 +1,7 @@
 # introducao_a_turbulencia
 Análise de escoamento turbulento
 
+O arquivo analise.py contém o código utilizado para realizar a análise
 
 Os arquivos txt e csv contém os dados tratados
 
